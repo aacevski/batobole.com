@@ -170,6 +170,7 @@ const Home: NextPage = () => {
             transform="translate(-50%, -50%)"
             pos="absolute"
             autoPlay
+            controls
             animation={videoOpenAnimation}
           >
             <Box as="source" src="bato_bol.mp4" type="video/mp4" />
